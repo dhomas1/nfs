@@ -7,7 +7,7 @@
 
 framework_version="2.1"
 name="nfs"
-version="1.3.3"
+version="2.6.3"
 description="Network File System (NFS) is a distributed file system protocol"
 depends=""
 webui="WebUI"
