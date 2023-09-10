@@ -1,6 +1,6 @@
 ### LIBTIRPC ###
 _build_libtirpc() {
-local VERSION="0.3.2"
+local VERSION="1.3.3"
 local FOLDER="libtirpc-${VERSION}"
 local FILE="${FOLDER}.tar.bz2"
 local URL="http://sourceforge.net/projects/libtirpc/files/libtirpc/${VERSION}/${FILE}"
@@ -29,7 +29,7 @@ popd
 
 ### RPCBIND ###
 _build_rpcbind() {
-local VERSION="0.2.3"
+local VERSION="1.2.6"
 local FOLDER="rpcbind-${VERSION}"
 local FILE="${FOLDER}.tar.bz2"
 local URL="http://sourceforge.net/projects/rpcbind/files/rpcbind/${VERSION}/${FILE}"
@@ -50,7 +50,7 @@ popd
 
 ### LIBBLKID ###
 _build_libblkid() {
-local VERSION="2.27.1"
+local VERSION="2.39.2"
 local FOLDER="util-linux-${VERSION}"
 local FILE="${FOLDER}.tar.xz"
 local URL="https://www.kernel.org/pub/linux/utils/util-linux/v2.27/${FILE}"
@@ -70,7 +70,7 @@ popd
 
 ### NFSUTILS ###
 _build_nfsutils() {
-local VERSION="1.3.3"
+local VERSION="2.6.3"
 local FOLDER="nfs-utils-${VERSION}"
 local FILE="${FOLDER}.tar.bz2"
 local URL="http://sourceforge.net/projects/nfs/files/nfs-utils/${VERSION}/${FILE}"
@@ -139,7 +139,7 @@ popd
 
 ### MONIT ###
 _build_monit() {
-local VERSION="5.15"
+local VERSION="5.33.0"
 local FOLDER="monit-${VERSION}"
 local FILE="${FOLDER}.tar.gz"
 local URL="https://mmonit.com/monit/dist/${FILE}"
