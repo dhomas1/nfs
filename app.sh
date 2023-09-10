@@ -6,9 +6,9 @@ local FILE="${FOLDER}.tar.bz2"
 local URL="http://sourceforge.net/projects/libtirpc/files/libtirpc/${VERSION}/${FILE}"
 
 _download_bz2 "${FILE}" "${URL}" "${FOLDER}"
-cp -vf "src/${FOLDER}-api_fixes-1.patch" "target/${FOLDER}/"
+#cp -vf "src/${FOLDER}-api_fixes-1.patch" "target/${FOLDER}/"
 pushd "target/${FOLDER}"
-patch -p1 -i "${FOLDER}-api_fixes-1.patch"
+#patch -p1 -i "${FOLDER}-api_fixes-1.patch"
 aclocal
 automake
 # /etc adjustment
