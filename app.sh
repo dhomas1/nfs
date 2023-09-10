@@ -53,7 +53,7 @@ _build_libblkid() {
 local VERSION="2.39.2"
 local FOLDER="util-linux-${VERSION}"
 local FILE="${FOLDER}.tar.xz"
-local URL="https://www.kernel.org/pub/linux/utils/util-linux/v2.27/${FILE}"
+local URL="https://www.kernel.org/pub/linux/utils/util-linux/v2.39/${FILE}"
 
 _download_xz "${FILE}" "${URL}" "${FOLDER}"
 pushd "target/${FOLDER}"
