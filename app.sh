@@ -10,7 +10,7 @@ _download_bz2 "${FILE}" "${URL}" "${FOLDER}"
 pushd "target/${FOLDER}"
 #patch -p1 -i "${FOLDER}-api_fixes-1.patch"
 aclocal
-automake
+automake --add-missing
 # /etc adjustment
 sed -i -e "s|/etc/netconfig|${DEST}/etc/netconfig|g" tirpc/netconfig.h
 # /var adjustment
